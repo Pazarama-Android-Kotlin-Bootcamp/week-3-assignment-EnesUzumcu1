@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/categoryListFragment">
+
+    <fragment
+        android:id="@+id/categoryListFragment"
+        android:name="com.example.week_3_assignment.categorylist.CategoryListFragment"
+        android:label="CategoryListFragment">
+        <action
+            android:id="@+id/action_categoryListFragment_to_cookListFragment"
+            app:destination="@id/cookListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cookListFragment"
+        android:name="com.example.week_3_assignment.cooklist.CookListFragment"
+        android:label="fragment_cook_list"
+        tools:layout="@layout/fragment_cook_list">
+        <action
+            android:id="@+id/action_cookListFragment_to_buyCookFragment"
+            app:destination="@id/buyCookFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/buyCookFragment"
+        android:name="com.example.week_3_assignment.BuyCookFragment"
+        android:label="BuyCookFragment" />
+</navigation>
