@@ -1,4 +1,7 @@
 # Week-3-Assignment
+
+&nbsp;&nbsp;&nbsp;&nbsp; This is Week 3 Assignment of the Pazarama Android Bootcamp. Structures such as RecyclerView and Navigation component were used in this project. The Glide library was also used.
+
 ## Uygulama videosu
 https://user-images.githubusercontent.com/61823965/194637270-14918df8-99cc-42ee-9964-2cd1463da375.mp4
 
